@@ -1,4 +1,4 @@
-Boot9strap
+Boot9strap (+bootonce support)
 =====
 ![License](https://img.shields.io/badge/License-GPLv3-blue.svg)
 
@@ -9,6 +9,10 @@ For more details, refer to the presentation [here](https://sciresm.github.io/33-
 Install via [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller).
 
 Launches "boot.firm" off of the SD card or CTRNAND. Hold Start + Select + X on boot to dump the bootroms/your OTP.
+
+**Support for bootonce:**
+
+[A9NC](https://github.com/d0k3/A9NC) and a certain feature in [GodMode9 v1.2.7](https://github.com/d0k3/GodMode9/releases/tag/v1.2.7) require bootonce support for full functionality. As bootonce support has since been [removed](https://github.com/SciresM/boot9strap/commit/ff16d59ff8fba431f5c5c934eea7db4d122eef1c) from the [official boot9strap source](https://github.com/SciresM/boot9strap), this fork exists. *Don't install this if you are not 100% sure you require bootonce support* - stay with the official release.
 
 **Credits:**
 
